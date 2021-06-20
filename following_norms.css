@@ -1,0 +1,35 @@
+h2,h3 {
+    padding-left: 2%;
+}
+h2 {
+    text-decoration: underline;
+}
+
+body {
+    font-family: ubuntu;
+}
+
+p {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+
+ul>li {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 2%;
+}
+
+body {
+    background-color: rgb(243, 255, 203);
+}
+ul {
+    padding-left: 5%;
+}
+
+.yt>iframe {
+    padding-left: 2%;
+    padding-bottom: 2%;
+}

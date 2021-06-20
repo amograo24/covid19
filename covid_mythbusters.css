@@ -1,0 +1,34 @@
+section {
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 2%;
+    background-color:rgb(71, 7, 71);
+    color: white;
+    font-weight: bolder;
+}
+
+section>li {
+    padding: 10px;
+}
+/* removes the dots : */
+section {
+    list-style: none;
+    font-family: ubuntu;
+}
+section:hover {
+    background-color: rgb(255, 102, 0);
+    border: 3px solid rgb(71, 7, 71);
+    transform: scale(1.008);
+    color: rgb(71, 7, 71);
+    font-weight: bolder;
+}
+/*.myth {
+    background-color: crimson;
+    border-radius: 10px;
+}
+.fact {
+    background-color: blue;
+    border-radius: 10px;  
+}*/

@@ -1,0 +1,42 @@
+h2 {
+    padding-left: 2%;
+    text-decoration: underline;
+}
+
+body {
+    font-family: ubuntu;
+}
+
+p {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* ol>li { */
+#first>li {
+    font-weight: bold;
+}
+
+ul>li {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 2%;
+}
+
+body {
+    background-color: rgb(243, 255, 203);
+}
+
+.sub_points>li {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 2%;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.sub_points {
+    padding-left: 0;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Live Covid Bed Status">
+        <title>Live Covid-19 Bed Status</title>
+        <link rel="icon" href="images/mycomlogofinal.png" type="image/png">
+        <meta name="viewpoint" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="heading.css">
+        <style>
+            iframe {
+                height: 580px;
+                width: 100%;
+            }
+            #map,#source {
+                color: crimson;
+                text-align: center;
+                font-family: ubuntu;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div style="text-align: center;">
+                <img width="250" src="images/OneCommunity.png" alt="One Community Logo" />
+            </div>
+            <nav>
+                <div style="text-align: center; background-color: rgb(205, 239, 243);">
+                    <div class="row">
+                        <div class="column">
+                            <a href="index.html"><img width="50" src="images/mt.png" alt="Menu Page"></a>
+                        </div>
+                        <div class="column">
+                            <a href="build_immunity.html"><img width="50" src="images/byit.png" alt="Build Immune System"></a>
+                        </div>
+                        <div class="column">
+                            <a href="covid_info.html"><img width="50" src="images/cit.png" alt="Covid-19 Info"></a>
+                        </div>
+                        <div class="column">
+                            <a href="follow_norms.html"><img width="50" src="images/fnt.png" alt="Following these Norms?"></a>
+                        </div>
+                        <div class="column">
+                            <a href="covid_resources.html"><img width="50" src="images/rt.png" alt="Covid-19 Resources"></a>
+                        </div>
+                    </div>   
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1 id="map">Click <a href="location_bed_status_map.html" target="_blank">here</a> to view map of Covid centers.</h1>
+            <h3 id="source">Source: BBMP</h3>
+            <iframe src="https://www.powerbi.com/view?r=eyJrIjoiOTcyM2JkNTQtYzA5ZS00MWI4LWIxN2UtZjY1NjFhYmFjZDBjIiwidCI6ImQ1ZmE3M2I0LTE1MzgtNGRjZi1hZGIwLTA3NGEzNzg4MmRkNiJ9"></iframe>
+        </main>
+        <footer>
+            <div style="text-align: center; font-family: ubuntu; background-color: navy; color: white; padding: 0.2%;">
+                <p>By Amog Rao (Web Dev) and Yasasvat Vummidi (Content)</p>
+                <p>&copy; 2021 One Community</p>
+            </div>
+        </footer>
+    </body>
+</html>
