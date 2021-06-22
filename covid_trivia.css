@@ -15,7 +15,7 @@ section>li {
 /* removes the dots : */
 section {
     list-style: none;
-    font-family: ubuntu, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: ubuntu, 'Segoe UI', sans-serif;
 }
 section:hover {
     background-color: rgb(192, 16, 57);
